@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\ActuatorsTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\ActuatorsTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\ActuatorsTest.csproj",
+        "projectName": "ActuatorsTest",
+        "projectPath": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\ActuatorsTest.csproj",
+        "packagesPath": "C:\\Users\\Coral\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Coral\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Lazlo326/_packaging/Packages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/redosocial/_packaging/RedoSocial/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/threetwosix/_packaging/ThreeTwoSix/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.0.10-dev.5, )"
+            },
+            "MudBlazor.Markdown": {
+              "target": "Package",
+              "version": "[0.0.10, )"
+            },
+            "MudBlazor.ThemeManager": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[7.0.0-preview.3.22175.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

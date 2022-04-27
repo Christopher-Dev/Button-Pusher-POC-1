@@ -1,0 +1,52 @@
+﻿@using ActuatorsTest.Data
+
+
+@inject ICereal Cereal
+
+            <MudItem Class="d-flex mud-theme-primary mt-4">
+                <MudCard Class="flex-auto mud-theme-secondary" Square="true" Elevation="3" >
+                    <MudCardContent>
+                        <MudButton Style="width: 150px; height: 150px" Color="@color" Size="Size.Large" Variant="Variant.Filled" ButtonType="ButtonType.Button" 
+                            OnClick=@(()=>ToggleColor())>@Bus
+                        </MudButton>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem> 
+
+@code {
+    private MudButton button { get; set; } = new MudButton();
+
+    private Color color { get; set; }
+
+    [Parameter]
+    public byte Bus { get; set; }
+
+    public void ToggleColor()
+    {
+
+        if(color == Color.Success)
+        {
+            //comp.Color = Color.Error;
+            color = Color.Error;
+        }
+        else
+        {
+            //comp.Color = Color.Success;
+            color = Color.Success;
+        }
+
+        bits(Bus);
+    }
+
+    public void bits(byte bus)
+    {
+        Bus += 1;
+        Cereal.SendDataSample(bus);
+    }
+
+
+    protected override void OnInitialized()
+    {
+        color = Color.Error;
+    }
+}

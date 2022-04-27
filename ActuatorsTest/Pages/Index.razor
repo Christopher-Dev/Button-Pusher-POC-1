@@ -1,0 +1,30 @@
+﻿@page "/"
+
+<PageTitle>Actuator Test</PageTitle>
+
+    <MudThemeProvider Theme=@_theme></MudThemeProvider>
+<MudGrid Class="d-flex justify-center">
+    <Actuator Bus="1"></Actuator>
+    <Actuator Bus="2"></Actuator>
+    <Actuator Bus="3"></Actuator>
+    <Actuator Bus="4"></Actuator>
+    <Actuator Bus="5"></Actuator>
+</MudGrid>
+
+@code{
+
+    private MudTheme _theme = new()
+    {
+        Palette = new Palette()
+        {
+            Background = "#1A1A27",
+            Secondary = "#151521",
+            TextPrimary = "#12BA58",
+        }
+    };
+
+    protected override void OnInitialized()
+    {
+        
+    }
+}

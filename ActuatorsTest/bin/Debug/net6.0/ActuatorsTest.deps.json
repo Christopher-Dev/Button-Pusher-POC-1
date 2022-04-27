@@ -1,0 +1,430 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ActuatorsTest/1.0.0": {
+        "dependencies": {
+          "MudBlazor": "6.0.10-dev.5",
+          "MudBlazor.Markdown": "0.0.10",
+          "MudBlazor.ThemeManager": "1.0.6",
+          "System.IO.Ports": "7.0.0-preview.3.22175.4"
+        },
+        "runtime": {
+          "ActuatorsTest.dll": {}
+        }
+      },
+      "Markdig/0.30.0": {
+        "runtime": {
+          "lib/net6.0/Markdig.dll": {
+            "assemblyVersion": "0.30.0.0",
+            "fileVersion": "0.30.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/6.0.4": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "6.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.422.17204"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components/6.0.4": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "6.0.4",
+          "Microsoft.AspNetCore.Components.Analyzers": "6.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.422.17204"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/6.0.4": {},
+      "Microsoft.AspNetCore.Components.Forms/6.0.4": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.422.17204"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web/6.0.4": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.4",
+          "Microsoft.AspNetCore.Components.Forms": "6.0.4",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.JSInterop": "6.0.4",
+          "System.IO.Pipelines": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.422.17204"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/6.0.4": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.422.17204"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.322.12309"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "Microsoft.JSInterop/6.0.4": {
+        "runtime": {
+          "lib/net6.0/Microsoft.JSInterop.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.422.17204"
+          }
+        }
+      },
+      "MudBlazor/6.0.10-dev.5": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.4",
+          "Microsoft.AspNetCore.Components.Web": "6.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/MudBlazor.dll": {
+            "assemblyVersion": "6.0.10.0",
+            "fileVersion": "6.0.10.0"
+          }
+        }
+      },
+      "MudBlazor.Markdown/0.0.10": {
+        "dependencies": {
+          "Markdig": "0.30.0",
+          "MudBlazor": "6.0.10-dev.5"
+        },
+        "runtime": {
+          "lib/net6.0/MudBlazor.Markdown.dll": {
+            "assemblyVersion": "0.0.10.0",
+            "fileVersion": "0.0.10.0"
+          }
+        }
+      },
+      "MudBlazor.ThemeManager/1.0.6": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.4",
+          "MudBlazor": "6.0.10-dev.5"
+        },
+        "runtime": {
+          "lib/net6.0/MudBlazor.ThemeManager.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "runtime.linux-arm.runtime.native.System.IO.Ports/7.0.0-preview.3.22175.4": {
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-arm64.runtime.native.System.IO.Ports/7.0.0-preview.3.22175.4": {
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-x64.runtime.native.System.IO.Ports/7.0.0-preview.3.22175.4": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.native.System.IO.Ports/7.0.0-preview.3.22175.4": {
+        "dependencies": {
+          "runtime.linux-arm.runtime.native.System.IO.Ports": "7.0.0-preview.3.22175.4",
+          "runtime.linux-arm64.runtime.native.System.IO.Ports": "7.0.0-preview.3.22175.4",
+          "runtime.linux-x64.runtime.native.System.IO.Ports": "7.0.0-preview.3.22175.4",
+          "runtime.osx-arm64.runtime.native.System.IO.Ports": "7.0.0-preview.3.22175.4",
+          "runtime.osx-x64.runtime.native.System.IO.Ports": "7.0.0-preview.3.22175.4"
+        }
+      },
+      "runtime.osx-arm64.runtime.native.System.IO.Ports/7.0.0-preview.3.22175.4": {
+        "runtimeTargets": {
+          "runtimes/osx-arm64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.osx-x64.runtime.native.System.IO.Ports/7.0.0-preview.3.22175.4": {
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.IO.Pipelines/6.0.2": {
+        "runtime": {
+          "lib/net6.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.6406"
+          }
+        }
+      },
+      "System.IO.Ports/7.0.0-preview.3.22175.4": {
+        "dependencies": {
+          "runtime.native.System.IO.Ports": "7.0.0-preview.3.22175.4"
+        },
+        "runtime": {
+          "lib/net6.0/System.IO.Ports.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net6.0/System.IO.Ports.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          },
+          "runtimes/win/lib/net6.0/System.IO.Ports.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.17504"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {}
+    }
+  },
+  "libraries": {
+    "ActuatorsTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Markdig/0.30.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wpuC7a5W/c9bsAzQs8Pxuo2S1KlLDIL3stOHpWW7UwGneYbdh3fByPCAyGmsu5FzPsJsqpbjVSYU5RLKkwk2lA==",
+      "path": "markdig/0.30.0",
+      "hashPath": "markdig.0.30.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authorization/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZufyK5u4rneCu7Xq9Dan4XggNANWgGpj4BvHhOof5tIZQgjWTU18oRlg5xtuBDHsfl03BwnxxWgNjN5TO59wEw==",
+      "path": "microsoft.aspnetcore.authorization/6.0.4",
+      "hashPath": "microsoft.aspnetcore.authorization.6.0.4.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QX8RhqjKQEBmAIzgmKLVYcw1HUION9tWUz0bQTDeHj9F05/YfohR8YiSPlTK4mTDk6S8WTi70qxNuGTWvgO1PQ==",
+      "path": "microsoft.aspnetcore.components/6.0.4",
+      "hashPath": "microsoft.aspnetcore.components.6.0.4.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xwzDR3aObo+Lhz3Ff7j9NQRukvklIeMlig2lANZ0VULSwXB0aW+W7xl7ssSe3xLDMpyhCjOTgcA/1zXIPdMTyg==",
+      "path": "microsoft.aspnetcore.components.analyzers/6.0.4",
+      "hashPath": "microsoft.aspnetcore.components.analyzers.6.0.4.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Forms/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HDRfrmQYrkRwAWOYgQL6EXwNE7vU6+IcnVXet0lIbPqITbeZiPWCQ6SUEzFz806f/h4ozXaN4Bn3/Ce+RjuZxw==",
+      "path": "microsoft.aspnetcore.components.forms/6.0.4",
+      "hashPath": "microsoft.aspnetcore.components.forms.6.0.4.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Web/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w1IDipPk1gEvLX3HG8HBB1idcyyBJtnb6I/xygzWlYSenpOVSyyjvk8UC0a5TsbPgmjNy4jMtpXVkOFAOkQopw==",
+      "path": "microsoft.aspnetcore.components.web/6.0.4",
+      "hashPath": "microsoft.aspnetcore.components.web.6.0.4.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Metadata/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/zyy+N/8155mbDqKCVrXLA4fNQYRbQe6jduA0WnZYMrSfLfrt0/QmQ+KaYGBir9w0xHrWtZ3LY8zAE1RLJYvYw==",
+      "path": "microsoft.aspnetcore.metadata/6.0.4",
+      "hashPath": "microsoft.aspnetcore.metadata.6.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzB2Cgg+JmrouhjkcQGzSFjjvpwlq353i8oBQO2GWNjCXSzhbtBRUf28HSauWe7eib3wYOdb3tItdjRwAdwCSg==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "path": "microsoft.extensions.options/6.0.0",
+      "hashPath": "microsoft.extensions.options.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.JSInterop/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ul/BI4XudxeR1JROdq0FnMTT1YAN74q2iGeeWAzabuYyFVHtxVa8j+cYE+0KphS0c0+JkSupKCQRjhZsDw5NUg==",
+      "path": "microsoft.jsinterop/6.0.4",
+      "hashPath": "microsoft.jsinterop.6.0.4.nupkg.sha512"
+    },
+    "MudBlazor/6.0.10-dev.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jVFXc0JKLnf0HEEXAvaUTsjD24vO9BboYvmY6iV/lGGuoCGm7NTatIX/JoAvA0yFSJfuu4sxfrix4tSshWCs1Q==",
+      "path": "mudblazor/6.0.10-dev.5",
+      "hashPath": "mudblazor.6.0.10-dev.5.nupkg.sha512"
+    },
+    "MudBlazor.Markdown/0.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-frTAYHdWT34sRCg3uJuVHAejuL+zhEyPXse/6VqvgVvca48nmi9OWrZBJA/93iKz4RBI4+jbm3ULbxf0fCZ9Mg==",
+      "path": "mudblazor.markdown/0.0.10",
+      "hashPath": "mudblazor.markdown.0.0.10.nupkg.sha512"
+    },
+    "MudBlazor.ThemeManager/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jo2AhWvjkw9tyNJ7PbRRaKo1P0ikjY+Ijj1kocgISBguRtl8CACISKLwwHdrrGWFePfI+rUaAHAGLxj6XfD4/Q==",
+      "path": "mudblazor.thememanager/1.0.6",
+      "hashPath": "mudblazor.thememanager.1.0.6.nupkg.sha512"
+    },
+    "runtime.linux-arm.runtime.native.System.IO.Ports/7.0.0-preview.3.22175.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BzkqNHK9YfnbVLhQE3RluteI3MpxpITmT9l4nDCw7/Kg3FeFsPR4m819LGFL838bzVLh8OEqcI2aUe1Ez9c1wA==",
+      "path": "runtime.linux-arm.runtime.native.system.io.ports/7.0.0-preview.3.22175.4",
+      "hashPath": "runtime.linux-arm.runtime.native.system.io.ports.7.0.0-preview.3.22175.4.nupkg.sha512"
+    },
+    "runtime.linux-arm64.runtime.native.System.IO.Ports/7.0.0-preview.3.22175.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1lz69t5SKBgTnC4ccQq7JzVDAsVY+uesCTmfWPX2JblrlTOwN8Ch80a01JoRMFvy9p/bvbwCwp1fCKPCnnlH6g==",
+      "path": "runtime.linux-arm64.runtime.native.system.io.ports/7.0.0-preview.3.22175.4",
+      "hashPath": "runtime.linux-arm64.runtime.native.system.io.ports.7.0.0-preview.3.22175.4.nupkg.sha512"
+    },
+    "runtime.linux-x64.runtime.native.System.IO.Ports/7.0.0-preview.3.22175.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0AflaCK7thhbwpCFG8+DULJ+aS+MjK2k7wWLxZnU2dWurOK35XixF4t3x7N38c7O37Y+H3ZcsIsmS8qkheOlFA==",
+      "path": "runtime.linux-x64.runtime.native.system.io.ports/7.0.0-preview.3.22175.4",
+      "hashPath": "runtime.linux-x64.runtime.native.system.io.ports.7.0.0-preview.3.22175.4.nupkg.sha512"
+    },
+    "runtime.native.System.IO.Ports/7.0.0-preview.3.22175.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s1P13Tyck1V0qu8dSrsDIPf7NkLIQqxrCoUfz5VtZ71tWe7l/CDJrrVURGQs1fwAnI2KR3hIJwo7AnN5ewvhPA==",
+      "path": "runtime.native.system.io.ports/7.0.0-preview.3.22175.4",
+      "hashPath": "runtime.native.system.io.ports.7.0.0-preview.3.22175.4.nupkg.sha512"
+    },
+    "runtime.osx-arm64.runtime.native.System.IO.Ports/7.0.0-preview.3.22175.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zIgFvnMowoyWux2ZFIRh9BAu9NOEJ25uS9oPLs+NCiSGzgCQLcTzw2EN4xKRZkJEPA0pKcGgs3lAP0378zkH8A==",
+      "path": "runtime.osx-arm64.runtime.native.system.io.ports/7.0.0-preview.3.22175.4",
+      "hashPath": "runtime.osx-arm64.runtime.native.system.io.ports.7.0.0-preview.3.22175.4.nupkg.sha512"
+    },
+    "runtime.osx-x64.runtime.native.System.IO.Ports/7.0.0-preview.3.22175.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tm8w/h3j9wOc41QOd2srLXF26Kx8/R7906w3rZ0cwiBFHA6gGdWK/qhigjK/8tfY3IpEKkK1AsGy7qdWS7Y2yA==",
+      "path": "runtime.osx-x64.runtime.native.system.io.ports/7.0.0-preview.3.22175.4",
+      "hashPath": "runtime.osx-x64.runtime.native.system.io.ports.7.0.0-preview.3.22175.4.nupkg.sha512"
+    },
+    "System.IO.Pipelines/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cb5OfQjnz+zjpJJei+f3QYK7+wWZrDdNHf3DykO6QCacpNZ80tuNgq1DC2kqlrjfEu+cMUTvulxPIrCMbBkjqg==",
+      "path": "system.io.pipelines/6.0.2",
+      "hashPath": "system.io.pipelines.6.0.2.nupkg.sha512"
+    },
+    "System.IO.Ports/7.0.0-preview.3.22175.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IKY+meWVjSUKOgTRc1BQzpdTgicyZ4Lyc0s7Wrn7tYl5V4Prwkx2HhZtRSPkgE+goXisJ7o7j8NQEjvdxTzqGQ==",
+      "path": "system.io.ports/7.0.0-preview.3.22175.4",
+      "hashPath": "system.io.ports.7.0.0-preview.3.22175.4.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    }
+  }
+}
