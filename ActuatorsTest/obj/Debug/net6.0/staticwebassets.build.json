@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gBEwxGZT9qyWTcurBB+zoJTgmhL3A2oAOFnmbMhXz5Q=",
+  "Hash": "NAUortx42aEqqk9r4JPv4bHimN+myHB04SJmG0HWv2g=",
   "Source": "ActuatorsTest",
   "BasePath": "_content/ActuatorsTest",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ActuatorsTest\\wwwroot",
       "Source": "ActuatorsTest",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "Pattern": "**"
     }
@@ -4250,10 +4250,10 @@
       "OriginalItemSpec": "C:\\Users\\Coral\\.nuget\\packages\\mudblazor\\6.0.10-dev.5\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ActuatorsTest.styles.css",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ActuatorsTest.styles.css",
       "SourceId": "ActuatorsTest",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "ActuatorsTest.styles.css",
       "AssetKind": "All",
@@ -4264,13 +4264,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ActuatorsTest.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ActuatorsTest.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ActuatorsTest.bundle.scp.css",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ActuatorsTest.bundle.scp.css",
       "SourceId": "ActuatorsTest",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "ActuatorsTest.bundle.scp.css",
       "AssetKind": "All",
@@ -4281,13 +4281,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ActuatorsTest.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ActuatorsTest.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -4301,10 +4301,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -4318,10 +4318,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -4335,10 +4335,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -4352,10 +4352,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -4369,10 +4369,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -4386,10 +4386,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -4403,10 +4403,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -4420,10 +4420,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -4437,10 +4437,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -4454,10 +4454,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -4471,10 +4471,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\css\\site.css",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -4488,10 +4488,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\favicon.ico",
       "SourceId": "ActuatorsTest",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\wwwroot\\",
       "BasePath": "_content/ActuatorsTest",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
