@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\ActuatorsTest.csproj": {}
+    "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\ActuatorsTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\ActuatorsTest.csproj": {
+    "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\ActuatorsTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\ActuatorsTest.csproj",
+        "projectUniqueName": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\ActuatorsTest.csproj",
         "projectName": "ActuatorsTest",
-        "projectPath": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\ActuatorsTest.csproj",
+        "projectPath": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\ActuatorsTest.csproj",
         "packagesPath": "C:\\Users\\Coral\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Coral\\source\\repos\\ActuatorsTest\\ActuatorsTest\\obj\\",
+        "outputPath": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
