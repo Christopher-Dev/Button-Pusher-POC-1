@@ -1,35 +1,49 @@
 ﻿@page "/"
 
+
 @using System.IO.Ports;
+@using ActuatorsTest.Data;
+
+@inject ICereal Cereal;
 
 <PageTitle>Actuator Test</PageTitle>
 
     <MudThemeProvider Theme=@_theme></MudThemeProvider>
 <MudGrid Class="d-flex justify-center">
     <MudItem xs="12">
-        <MudSlider Min="1" Max="10" Immediate="true" Step="1" @bind-Value="_papers"></MudSlider>
+        <MudSlider Min="1" Max="@LotteryList.Count" Immediate="true" Step="1" @bind-Value="_papers"></MudSlider>
     </MudItem>
     <MudItem xs="12">
         <MudSelect Direction="Direction.Bottom" TransformOrigin="Origin.BottomCenter" AnchorOrigin="Origin.BottomCenter" Label="ComPort" T="string" @bind-Value="ComPort">
             @foreach (var item in ComList)
             {
-                <MudSelectItem Value="item"></MudSelectItem>
+                <MudSelectItem Value="@item">@item</MudSelectItem>
             }
         </MudSelect>
     </MudItem>
-    @for (var i = 1; i < _papers; i++)
+    @for (var i = 0; i < _papers; i++)
     {
-        byte q = Convert.ToByte(i);
-        <Actuator Bus="q"></Actuator>
+        var LotteryName = LotteryList.ElementAt(i);
+        <Actuator Name="@LotteryName" Id="i" ComPort="@ComPort"></Actuator>
     }
 </MudGrid>
 
 @code{
+
     int _papers = 5;
 
-    private string ComPort { get; set; }
+    private string ComPort { get; set; } = "COM1";
 
     private List<string> ComList { get; set; } = new List<string>();
+
+    public List<string> LotteryList { get; set; } = new List<string>()
+    {
+        "Mega Million",
+        "Powerball",
+        "Pick 3",
+        "Pick 4",
+        "Pick 5"
+    };
 
     private MudTheme _theme = new()
     {
@@ -41,23 +55,17 @@
         }
     };
 
-    private void PopulateComPipes()
-    {
-        //Local variable to check ports available
-        foreach (var item in SerialPort.GetPortNames())
-        {
-            ComList.Add(item);
-        }
-    }
+
     protected override void OnInitialized()
     {
-        PopulateComPipes();
-        ComList.Add("COM2");
-        ComList.Add("COM3");
-        ComList.Add("COM4");
-        ComList.Add("COM5");
-        ComList.Add("COM6");
-        ComList.Add("COM7");
-        ComList.Add("COM8");
+        ComList = Cereal.GetCommunicationPorts();
+
+         /*
+         * For Testing Multiple Port Values
+        */
+        for (var i = 1; i < 11; i++)
+        {
+            ComList.Add($"COM{i}");
+        }
     }
 }

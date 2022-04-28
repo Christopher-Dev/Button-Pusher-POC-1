@@ -117,8 +117,18 @@ using ActuatorsTest.Data;
 
     private Color color { get; set; }
 
+    private List<string> ComList { get{ return Cereal.GetCommunicationPorts(); } }
+
     [Parameter]
-    public byte Bus { get; set; }
+    public string Name { get; set; }
+
+    [Parameter]
+    public int Id { get; set; }
+
+    [Parameter]
+    public string ComPort { get; set; }
+
+    public byte Counter { get; set; }
 
     public void ToggleColor()
     {
@@ -133,14 +143,15 @@ using ActuatorsTest.Data;
             //comp.Color = Color.Success;
             color = Color.Success;
         }
-
-        bits(Bus);
+        byte q = Convert.ToByte(Id);
+        bits(q);
     }
 
-    public void bits(byte bus)
+    public void bits(byte bit)
     {
-        Bus += 1;
-        Cereal.SendDataSample(bus);
+        
+        Counter += 1;
+        Cereal.SendDataSample(bit, ComPort);
     }
 
 

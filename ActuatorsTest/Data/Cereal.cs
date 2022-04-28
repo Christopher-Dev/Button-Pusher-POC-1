@@ -4,6 +4,11 @@ namespace ActuatorsTest.Data
 {
     public class Cereal : ICereal
     {
+        public List<string> GetCommunicationPorts()
+        {
+            return SerialPort.GetPortNames().ToList();
+        }
+
         public void SendData()
         {
 
@@ -13,27 +18,18 @@ namespace ActuatorsTest.Data
         }
 
 
-        public void SendDataSample(byte bit)
+        public void SendDataSample(byte bit, string comPort)
         {
-
-            var q = new List<string>();
-
-            //Local variable to check ports available
-            foreach (var item in SerialPort.GetPortNames())
-            {
-                q.Add(item);
-            }
-            
             //Create the communication port with factory settings
-            SerialPort port = new SerialPort($"COM1", 115200, Parity.None, 8, StopBits.One);
+            SerialPort port = new SerialPort(comPort, 115200, Parity.None, 8, StopBits.One);
 
 
             port.Open();
 
-            port.Write(new byte[] {0x0A, 0xE2, 0xFF},0,3);
+            port.Write(new byte[] { bit }, 0, 3);
 
             port.Close();
-        
+
         }
 
 

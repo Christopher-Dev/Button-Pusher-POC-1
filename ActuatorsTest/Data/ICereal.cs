@@ -3,6 +3,8 @@
     public interface ICereal
     {
         public void SendData();
-        public void SendDataSample(byte bit);
+        public void SendDataSample(byte bit, string ComPort);
+
+        public List<string> GetCommunicationPorts();
     }
 }

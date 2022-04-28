@@ -96,6 +96,20 @@ using MudBlazor.ThemeManager;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\mchlc\Source\Repos\Button-Pusher-POC-1\ActuatorsTest\Pages\Index.razor"
+using System.IO.Ports;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\mchlc\Source\Repos\Button-Pusher-POC-1\ActuatorsTest\Pages\Index.razor"
+using ActuatorsTest.Data;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -105,8 +119,23 @@ using MudBlazor.ThemeManager;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 14 "C:\Users\mchlc\Source\Repos\Button-Pusher-POC-1\ActuatorsTest\Pages\Index.razor"
+#line 31 "C:\Users\mchlc\Source\Repos\Button-Pusher-POC-1\ActuatorsTest\Pages\Index.razor"
       
+
+    int _papers = 5;
+
+    private string ComPort { get; set; } = "COM1";
+
+    private List<string> ComList { get; set; } = new List<string>();
+
+    public List<string> LotteryList { get; set; } = new List<string>()
+    {
+        "Mega Million",
+        "Powerball",
+        "Pick 3",
+        "Pick 4",
+        "Pick 5"
+    };
 
     private MudTheme _theme = new()
     {
@@ -118,14 +147,24 @@ using MudBlazor.ThemeManager;
         }
     };
 
+
     protected override void OnInitialized()
     {
-        
+        ComList = Cereal.GetCommunicationPorts();
+
+         /*
+         * For Testing Multiple Port Values
+        */
+        for (var i = 1; i < 11; i++)
+        {
+            ComList.Add($"COM{i}");
+        }
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ICereal Cereal { get; set; }
     }
 }
 #pragma warning restore 1591
