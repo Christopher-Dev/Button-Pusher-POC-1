@@ -25,7 +25,7 @@ namespace ActuatorsTest.Data
             }
             
             //Create the communication port with factory settings
-            SerialPort port = new SerialPort($"COM1", 9600, Parity.None, 8, StopBits.One);
+            SerialPort port = new SerialPort($"COM1", 115200, Parity.None, 8, StopBits.One);
 
 
             port.Open();

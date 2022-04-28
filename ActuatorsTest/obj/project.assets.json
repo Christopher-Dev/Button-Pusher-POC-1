@@ -1100,24 +1100,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Coral\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\mchlc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\ActuatorsTest.csproj",
+      "projectUniqueName": "C:\\Users\\mchlc\\Source\\Repos\\Button-Pusher-POC-1\\ActuatorsTest\\ActuatorsTest.csproj",
       "projectName": "ActuatorsTest",
-      "projectPath": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\ActuatorsTest.csproj",
-      "packagesPath": "C:\\Users\\Coral\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Coral\\source\\repos\\Button-Pusher-POC-1\\ActuatorsTest\\obj\\",
+      "projectPath": "C:\\Users\\mchlc\\Source\\Repos\\Button-Pusher-POC-1\\ActuatorsTest\\ActuatorsTest.csproj",
+      "packagesPath": "C:\\Users\\mchlc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mchlc\\Source\\Repos\\Button-Pusher-POC-1\\ActuatorsTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Coral\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\mchlc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1126,6 +1121,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/Lazlo326/_packaging/Packages/nuget/v2": {},
         "https://pkgs.dev.azure.com/Lazlo326/_packaging/Packages/nuget/v3/index.json": {},
         "https://pkgs.dev.azure.com/redosocial/_packaging/RedoSocial/nuget/v3/index.json": {},
         "https://pkgs.dev.azure.com/threetwosix/_packaging/ThreeTwoSix/nuget/v3/index.json": {}
@@ -1181,7 +1177,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
