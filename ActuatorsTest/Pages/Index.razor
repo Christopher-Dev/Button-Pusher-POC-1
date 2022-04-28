@@ -1,17 +1,35 @@
 ﻿@page "/"
 
+@using System.IO.Ports;
+
 <PageTitle>Actuator Test</PageTitle>
 
     <MudThemeProvider Theme=@_theme></MudThemeProvider>
 <MudGrid Class="d-flex justify-center">
-    <Actuator Bus="1"></Actuator>
-    <Actuator Bus="2"></Actuator>
-    <Actuator Bus="3"></Actuator>
-    <Actuator Bus="4"></Actuator>
-    <Actuator Bus="5"></Actuator>
+    <MudItem xs="12">
+        <MudSlider Min="1" Max="10" Immediate="true" Step="1" @bind-Value="_papers"></MudSlider>
+    </MudItem>
+    <MudItem xs="12">
+        <MudSelect Direction="Direction.Bottom" TransformOrigin="Origin.BottomCenter" AnchorOrigin="Origin.BottomCenter" Label="ComPort" T="string" @bind-Value="ComPort">
+            @foreach (var item in ComList)
+            {
+                <MudSelectItem Value="item"></MudSelectItem>
+            }
+        </MudSelect>
+    </MudItem>
+    @for (var i = 1; i < _papers; i++)
+    {
+        byte q = Convert.ToByte(i);
+        <Actuator Bus="q"></Actuator>
+    }
 </MudGrid>
 
 @code{
+    int _papers = 5;
+
+    private string ComPort { get; set; }
+
+    private List<string> ComList { get; set; } = new List<string>();
 
     private MudTheme _theme = new()
     {
@@ -23,8 +41,23 @@
         }
     };
 
+    private void PopulateComPipes()
+    {
+        //Local variable to check ports available
+        foreach (var item in SerialPort.GetPortNames())
+        {
+            ComList.Add(item);
+        }
+    }
     protected override void OnInitialized()
     {
-        
+        PopulateComPipes();
+        ComList.Add("COM2");
+        ComList.Add("COM3");
+        ComList.Add("COM4");
+        ComList.Add("COM5");
+        ComList.Add("COM6");
+        ComList.Add("COM7");
+        ComList.Add("COM8");
     }
 }
